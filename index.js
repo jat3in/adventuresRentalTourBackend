@@ -64,7 +64,7 @@ app.get("/contact",( async (req,res) => {
 }))
 
 app.post("/contact", ( async (req,res) => {
-    const {username,email,date,phone} = req.body
+    const {username,email,date,phone,destination} = req.body
     console.log(username,email,phone)
     if(!username && !email && !phone){
         return res.status(500).json({message: "All feilds are our required"})
@@ -74,6 +74,7 @@ app.post("/contact", ( async (req,res) => {
         username,
         email,
         date,
+        destination,
         phone
     })
 
