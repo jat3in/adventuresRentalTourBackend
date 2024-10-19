@@ -161,8 +161,8 @@ app.post("/send-email", (req,res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'jatinvashishtha053@gmail.com',
-          pass: 'sjbh mdla ackg tbzk',
+          user: 'tourplaner7@gmail.com',
+          pass: 'kvol yowg dsls xpmk',
         },
       });
 
@@ -196,8 +196,8 @@ app.post("/send-email", (req,res) => {
       </table>
     `;
       const mailOptions = {
-        from: 'jatinvashishtha053@gmail.com',
-        to: 'jatinvashishtha053@gmail.com',
+        from: 'tourplaner7@gmail.com',
+        to: 'tourplaner7@gmail.com',
         subject: `Contact form submission from ${username}`,
         html: emailBody,
       };
@@ -222,8 +222,8 @@ app.put("/send-email", (req,res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'jatinvashishtha053@gmail.com',
-          pass: 'sjbh mdla ackg tbzk',
+          user: 'tourplaner7@gmail.com',
+          pass: 'kvol yowg dsls xpmk',
         },
       });
 
@@ -257,8 +257,8 @@ app.put("/send-email", (req,res) => {
       </table>
     `;
       const mailOptions = {
-        from: 'jatinvashishtha053@gmail.com',
-        to: 'jatinvashishtha053@gmail.com',
+        from: 'tourplaner7@gmail.com',
+        to: 'tourplaner7@gmail.com',
         subject: `Contact form submission from ${username}`,
         html: emailBody,
       };
