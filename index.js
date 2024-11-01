@@ -137,6 +137,5 @@ app.put("/send-email", (req,res) => {
 
 app.listen("3000",() => {
     console.log("listning on 3000")
-    connectDb()
 })
 
