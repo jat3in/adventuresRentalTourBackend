@@ -20,8 +20,8 @@ app.post("/send-email", (req,res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'jatinvashishtha053@gmail.com',
-          pass: 'rjad zjmr togb pchj',
+          user: 'adventuresrentaltour@gmail.com',
+          pass: 'pdjz fvwr nmqr jfmu',
         },
       });
 
@@ -55,8 +55,8 @@ app.post("/send-email", (req,res) => {
       </table>
     `;
       const mailOptions = {
-        from: 'jatinvashishtha053@gmail.com',
-        to: 'jatinvashishtha053@gmail.com',
+        from: 'adventuresrentaltour@gmail.com',
+        to: 'adventuresrentaltour@gmail.com',
         subject: `Contact form submission from ${username}`,
         html: emailBody,
       };
@@ -81,8 +81,8 @@ app.put("/send-email", (req,res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'jatinvashishtha053@gmail.com',
-          pass: 'rjad zjmr togb pchj',
+          user: 'adventuresrentaltour@gmail.com',
+          pass: 'pdjz fvwr nmqr jfmu',
         },
       });
 
@@ -116,8 +116,8 @@ app.put("/send-email", (req,res) => {
       </table>
     `;
       const mailOptions = {
-        from: 'jatinvashishtha053@gmail.com',
-        to: 'jatinvashishtha053@gmail.com',
+        from: 'adventuresrentaltour@gmail.com',
+        to: 'adventuresrentaltour@gmail.com',
         subject: `Contact form submission from ${username}`,
         html: emailBody,
       };
